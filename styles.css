@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("opt1.jpg");
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+
+.textual{
+    width: 100%;
+    height: 70vh;
+    align-content: center;
+    
+}
+
+.message {
+    width: 30%;
+    height: 300px;
+    margin-left: 100px;
+    text-align: center;    
+}
+
+.message h1 {
+    font-size: 90px;
+    font-family: 'Salita', sans-serif;
+    color:brown;
+    font-weight: 200;
+    transition: font-size 0.5s ease-in-out;
+}
+
+@font-face {
+    font-family: 'Salita';
+    src: url('Salita.ttf') format('truetype');
+}
+
+.message p {
+    font-size: 18px;
+    font-family: 'Camelliani';
+    font-weight: 600;
+    transition: font-size 0.5s ease-in-out;
+}
+
+@font-face {
+    font-family: 'Camelliani';
+    src: url('Camelliani.otf') format('truetype');
+}
+
+.option {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.size {
+    width:200px;
+    height: 130px;
+    border: 2px solid rgb(75, 70, 70);
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 3px 6px 10px black;
+    transition-duration: .5s;
+
+&:hover {
+    scale: 1.1;
+    border-color: black;
+}
+
+&:active {
+    border-color: red;
+}
+
+}
+
+
+
+.opt1 {
+    background-image: url("opt1.jpg");
+    background-size: cover;
+}
+
+.opt2 {
+    background-image: url("opt2.avif");
+    background-size: cover;
+}
+
+.opt3 {
+    background-image: url("opt3.avif");
+    background-size: cover;
+}
+
+.opt4 {
+    background-image: url("opt4.jpg");
+    background-size: cover;
+}
+
